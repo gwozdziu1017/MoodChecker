@@ -11,7 +11,7 @@ import SwiftUI
 struct MoodCheckerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
