@@ -12,7 +12,6 @@ struct MoodResultView: View {
     //var moodResultModel: MoodResultModel!
     var body: some View {
         Text(moodSelectionModel.selectedMood.advice)
-        
     }
 }
 

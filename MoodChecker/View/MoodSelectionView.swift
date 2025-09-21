@@ -6,23 +6,8 @@
 //
 import SwiftUI
 
-func getView() -> some View {
-    return VStack {
-        Text("Mood Checker App")
-            .font(.largeTitle)
-            .fontWeight(.bold)
-            .padding(.bottom)
-        Button("Check my mood") {
-            
-        }
-    }
-}
-
-var selectedMood: Mood?
-
 struct MoodSelectionView: View {
     @Binding var moodSelectionModel: MoodSelectionModel
-    //var body: some View = getView()
 
     @State private var isPresented = false
     var body: some View {
@@ -35,7 +20,6 @@ struct MoodSelectionView: View {
                MoodResultView(moodSelectionModel: moodSelectionModel)
             }
         }
-    
     }
 }
 

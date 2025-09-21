@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
- 
-
 
 struct StartView: View {
     @State private var isPresented: Bool = false
